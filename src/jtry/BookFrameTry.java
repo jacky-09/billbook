@@ -9,7 +9,13 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
+import util.GUIUtil;
+
 public class BookFrameTry {
+	
+	static {
+		GUIUtil.useLNF();
+	}
 	
 	public static void main(String[] args) {
         JFrame f = new JFrame();
